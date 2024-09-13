@@ -57,7 +57,7 @@ body {
 
     & section {
       aspect-ratio: inherit;
-      width: 100%;
+      inline-size: 100%;
 
       background: -webkit-image-set(
           url("./assets/eyes-close.webp")
@@ -103,9 +103,12 @@ body {
 
       &::before {
         content: "";
+        
+        aspect-ratio: inherit;
+        inline-size: inherit;
+
         position: absolute;
         inset: 0 0 0 -100%;
-        width: inherit;
 
         -webkit-transform: skew(0, -30deg);
         transform: skew(0, -30deg);
