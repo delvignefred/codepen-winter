@@ -28,8 +28,9 @@ body {
   justify-content: center;
   align-items: center;
 
-  height: 100dvh;
-  width: 100dvw;
+  inline-size: 100dvw;
+  block-size: 100dvh;
+  
   background-color: var(--system-color-background);
 
   -moz-image-rendering: auto;
