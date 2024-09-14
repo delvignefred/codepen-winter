@@ -52,7 +52,7 @@ body {
     --canvas-width: 512px;
 
     aspect-ratio: 1;
-    min-inline-size: var(--canvas-width);
+    inline-size: var(--canvas-width);
 
     background: var(--system-color-dark);
     overflow: hidden;
@@ -252,7 +252,7 @@ body {
 @media screen and (width < 1024px) {
   body {
     & main {
-      min-inline-size: calc(var(--canvas-width) / 2);
+      inline-size: calc(var(--canvas-width) / 2);
 
       & section {
         & article {
@@ -290,7 +290,7 @@ body {
 @media screen and (width > 1920px) {
   body {
     & main {
-      min-inline-size: calc(var(--canvas-width) * 2);
+      inline-size: calc(var(--canvas-width) * 2);
 
       & section {
         & article {
