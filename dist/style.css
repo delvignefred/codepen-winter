@@ -59,7 +59,7 @@ body {
     overflow: hidden;
 
     & section {
-      aspect-ratio: inherit;
+      aspect-ratio: 1;
       inline-size: 100%;
 
       background: -webkit-image-set(
@@ -107,8 +107,8 @@ body {
       &::before {
         content: "";
         
-        aspect-ratio: inherit;
-        inline-size: inherit;
+        aspect-ratio: 100%;
+        inline-size: 100%;
 
         position: absolute;
         inset: 0 0 0 -100%;
