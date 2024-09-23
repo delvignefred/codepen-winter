@@ -137,17 +137,17 @@ body {
         content: "";
 
         background: -webkit-image-set(
-            url("./assets/frame.png")
+            url("./assets/frame.avif")
               1x,
-            url("./assets/frame-hd.png")
+            url("./assets/frame-hd.avif")
               2x
           )
           no-repeat 50% 50% / 100%;
 
         background: image-set(
-            url("./assets/frame.png")
+            url("./assets/frame.avif")
               1x,
-            url("./assets/frame-hd.png")
+            url("./assets/frame-hd.avif")
               2x
           )
           no-repeat 50% 50% / 100%;
