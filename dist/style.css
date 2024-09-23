@@ -63,17 +63,17 @@ body {
       inline-size: 100%;
 
       background: -webkit-image-set(
-          url("./assets/eyes-close.webp")
+          url("./assets/eyes-close.avif")
             1x,
-          url("./assets/eyes-close-hd.webp")
+          url("./assets/eyes-close-hd.avif")
             2x
         )
         no-repeat 50% 0% / 100%;
 
       background: image-set(
-          url("./assets/eyes-close.webp")
+          url("./assets/eyes-close.avif")
             1x,
-          url("./assets/eyes-close-hd.webp")
+          url("./assets/eyes-close-hd.avif")
             2x
         )
         no-repeat 50% 0% / 100%;
@@ -85,17 +85,17 @@ body {
 
       &:hover {
         background: -webkit-image-set(
-            url("./assets/eyes-open.webp")
+            url("./assets/eyes-open.avif")
               1x,
-            url("./assets/eyes-open-hd.webp")
+            url("./assets/eyes-open-hd.avif")
               2x
           )
           no-repeat 50% 0% / 110%;
 
         background: image-set(
-            url("./assets/eyes-open.webp")
+            url("./assets/eyes-open.avif")
               1x,
-            url("./assets/eyes-open-hd.webp")
+            url("./assets/eyes-open-hd.avif")
               2x
           )
           no-repeat 50% 0% / 110%;
